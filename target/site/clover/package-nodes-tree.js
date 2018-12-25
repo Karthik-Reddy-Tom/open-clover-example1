@@ -9,7 +9,7 @@ var Packages = {
     "text": "test.open",
     "package": "test.open",
     "url": "test/open/testsrc-pkg-summary.html",
-            "coverage": "0%",
+            "coverage": "85.7%",
         "icon": "aui-icon aui-icon-small aui-iconfont-devtools-folder-closed",
             "li_attr": {"data-is-link": "true"},
         "a_attr": {"href": "test/open/testsrc-pkg-summary.html"},
