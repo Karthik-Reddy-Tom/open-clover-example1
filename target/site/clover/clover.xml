@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1545729026940" clover="4.3.1">
-   <project name="open 0.0.1-SNAPSHOT" timestamp="1545729023019">
+<coverage generated="1545730160249" clover="4.3.1">
+   <project name="open 0.0.1-SNAPSHOT" timestamp="1545730149290">
       <metrics coveredelements="0" complexity="0" loc="0" methods="0" classes="0" statements="0" packages="0" coveredconditionals="0" coveredmethods="0" elements="0" ncloc="0" files="0" conditionals="0" coveredstatements="0"/>
    </project>
-   <testproject name="open 0.0.1-SNAPSHOT" timestamp="1545729023019">
+   <testproject name="open 0.0.1-SNAPSHOT" timestamp="1545730149290">
       <metrics coveredelements="12" complexity="7" loc="48" methods="7" classes="1" statements="7" packages="1" coveredconditionals="0" coveredmethods="6" elements="14" ncloc="28" files="1" conditionals="0" coveredstatements="6"/>
       <package name="test.open">
          <metrics coveredelements="12" complexity="7" loc="48" methods="7" classes="1" statements="7" coveredconditionals="0" coveredmethods="6" elements="14" ncloc="28" files="1" conditionals="0" coveredstatements="6"/>
@@ -12,20 +12,20 @@
             <class name="Calculator">
                <metrics coveredelements="12" coveredconditionals="0" complexity="7" coveredmethods="6" methods="7" elements="14" statements="7" conditionals="0" coveredstatements="6"/>
             </class>
-            <line complexity="1" visibility="public" signature="sum(int,int) : int" num="9" count="3" type="method"/>
-            <line num="10" count="3" type="stmt"/>
-            <line complexity="1" visibility="public" signature="minus(int,int) : int" num="13" count="3" type="method"/>
-            <line num="14" count="3" type="stmt"/>
-            <line complexity="1" visibility="public" signature="divide(int,int) : int" num="17" count="3" type="method"/>
-            <line num="18" count="3" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sum(int,int) : int" num="9" count="1" type="method"/>
+            <line num="10" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="minus(int,int) : int" num="13" count="1" type="method"/>
+            <line num="14" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="divide(int,int) : int" num="17" count="1" type="method"/>
+            <line num="18" count="1" type="stmt"/>
             <line complexity="1" visibility="public" signature="multiply(int,int) : int" num="21" count="0" type="method"/>
             <line num="22" count="0" type="stmt"/>
-            <line complexity="1" visibility="public" signature="testSum() : void" num="25" count="3" type="method"/>
-            <line num="28" count="3" type="stmt"/>
-            <line complexity="1" visibility="public" signature="testMinus() : void" num="31" count="3" type="method"/>
-            <line num="34" count="3" type="stmt"/>
-            <line complexity="1" visibility="public" signature="testDivide() : void" num="37" count="3" type="method"/>
-            <line num="40" count="3" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testSum() : void" num="25" count="1" type="method"/>
+            <line num="28" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testMinus() : void" num="31" count="1" type="method"/>
+            <line num="34" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testDivide() : void" num="37" count="1" type="method"/>
+            <line num="40" count="1" type="stmt"/>
          </file>
       </package>
    </testproject>
