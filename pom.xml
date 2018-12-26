@@ -71,23 +71,14 @@
 				<artifactId>clover-maven-plugin</artifactId>
 				<version>4.3.1</version>
 				<configuration>
-					<targetPercentage>50%</targetPercentage>
 					<generateHtml>true</generateHtml>
 					<generatePdf>true</generatePdf>
 					<generateXml>true</generateXml>
-					<generateHistorical>true</generateHistorical>
 					<executions>
 						<execution>
-							<phase>pre-site</phase>
-							<phase>site</phase>
 							<phase>generate-sources</phase>
-							<phase>verify</phase>
 							<goals>
-								<goal>aggregate</goal>
-								<goal>instrument</goal>
-								<goal>check</goal>
 								<goal>verify</goal>
-								<goal>clover</goal>
 							</goals>
 						</execution>
 					</executions>
